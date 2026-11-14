@@ -7,7 +7,7 @@
 
 ## 🌐 Live Demo
 
-[View Live Demo](#) ← *Replace `#` with your deployed URL after deployment.*
+[View Live Demo](https://darling-frangipane-0e691a.netlify.app/) ← *Replace `#` with your deployed URL after deployment.*
 
 ---
 
@@ -85,37 +85,6 @@ Assignment/
 1. Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) VS Code extension.
 2. Right-click `index.html` → **Open with Live Server**.
 3. The page opens at `http://127.0.0.1:5500`.
-
-**Option 3 — Python simple server:**
-```bash
-# Python 3
-cd Assignment
-python -m http.server 8080
-# Then open http://localhost:8080
-```
-
----
-
-## ☁️ Deployment
-
-### GitHub Pages
-1. Push the project to a GitHub repository.
-2. Go to **Settings → Pages**.
-3. Under **Source**, select **Deploy from a branch**, choose `main`, folder `/` (root).
-4. Click **Save**. Your site will be live at `https://<username>.github.io/<repo-name>/` within a minute.
-
-### Netlify (drag & drop — fastest)
-1. Go to [netlify.com](https://netlify.com) and sign in.
-2. Drag the entire `Assignment` folder onto the Netlify dashboard.
-3. Netlify publishes instantly and gives you a URL like `https://taskflow-xyz.netlify.app`.
-4. (Optional) Click **Site settings → Change site name** to customise the URL.
-
-### Vercel
-1. Install Vercel CLI: `npm i -g vercel`
-2. In the `Assignment` folder: `vercel`
-3. Follow the prompts. Vercel deploys and gives you a live URL.
-
----
 
 ## 🧠 How I'd Explain This Code
 
